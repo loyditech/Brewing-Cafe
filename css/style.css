@@ -27,7 +27,7 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 1rem 3rem;
-    background-color: #591F08;
+    background-color: #591f08;
     position: sticky;
     top: 0;
     z-index: 100;
@@ -90,7 +90,7 @@ nav a:hover {
     font-size: 1rem;
     max-width: 420px;
     margin-bottom: 1.5rem;
-   color: #fff;
+    color: #fff;
 }
 
 .btn {
@@ -142,12 +142,12 @@ nav a:hover {
 .about-content h2 {
     font-size: 2rem;
     margin-bottom: 1rem;
-    color: #591F08;
+    color: #591f08;
 }
 
 .about-content p {
     margin-bottom: 1rem;
-    color: #591F08;
+    color: #591f08;
 }
 
 .about-content ul {
@@ -170,7 +170,6 @@ nav a:hover {
     background-color: #efe6d8;
 }
 
-
 #menu h2 {
     font-size: 2rem;
     margin-bottom: 2rem;
@@ -185,6 +184,7 @@ nav a:hover {
     max-width: 1100px;
     margin: 0 auto;
 }
+
 .menu-item {
     background-color: #fff;
     border-radius: 10px;
@@ -232,7 +232,7 @@ nav a:hover {
 
 .menu-item .price {
     font-weight: 700;
-    color: #591F08;
+    color: #591f08;
 }
 
 .order-btn {
@@ -246,10 +246,9 @@ nav a:hover {
 }
 
 .order-btn:hover {
-    background-color: #591F08;
+    background-color: #591f08;
 }
 
- /* Special Offer Promo */
 #special-offer {
     background-color: #c98b4a;
     color: #2b1d14; 
@@ -271,16 +270,24 @@ nav a:hover {
     font-weight: 600;
 }
 
+.promo-price {
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: #fff;
+    background: #2b1d14;
+    padding: 4px 10px;
+    border-radius: 6px;
+}
+
 #special-offer .btn {
     background-color: #2b1d14;
     color: #fff;
 }
 
 #special-offer .btn:hover {
-    background-color: #591F08; 
+    background-color: #591f08; 
 }
 
-/*Visit us */
 #visit {
     padding: 4rem 3rem;
 }
@@ -300,7 +307,7 @@ nav a:hover {
 
 .visit-details h3 {
     margin-bottom: 0.5rem;
-    color: #591F08;
+    color: #591f08;
 }
 
 .map {
@@ -351,7 +358,7 @@ nav a:hover {
 }
 
 #contact button {
-    background-color: #591F08;
+    background-color: #591f08;
     color: #fff;
     padding: 0.8rem 2rem;
     border: none;
@@ -417,9 +424,8 @@ footer li a:hover {
     color: #9a8977;
 }
 
-/* Tablet Layout (790 x 1024) */
+/*Tablet Layout */
 @media (max-width: 1024px) {
-   
     #hero {
         flex-direction: column;
         text-align: center;
@@ -450,9 +456,8 @@ footer li a:hover {
     }
 }
 
-/* MOBILE LAYOUT (390 × 844 px)*/
+/*Mobile Layout */
 @media (max-width: 480px) {
-    
     header {
         flex-direction: column;
         padding: 1rem;
@@ -465,20 +470,21 @@ footer li a:hover {
         gap: 1rem;
     }
 
-   #hero {
-    min-height: auto;
-    padding-top: 2rem; 
-    padding-bottom: 0; 
+    #hero {
+        flex-direction: column;
+        min-height: auto;
+        padding-top: 2rem; 
+        padding-bottom: 0; 
     }
 
     .hero-content {
-    padding: 0 1.5rem;
-    margin-bottom: 1.5rem; 
+        padding: 0 1.5rem;
+        margin-bottom: 1.5rem; 
     }
 
     .hero-image {
-    width: 100%;
-    height: auto;
+        width: 100%;
+        height: auto;
     }
 
     .hero-content h1 {
@@ -488,7 +494,7 @@ footer li a:hover {
     .hero-content p {
         font-size: 0.95rem;
     }
- 
+
     .menu-items {
         grid-template-columns: 1fr;
     }
@@ -496,6 +502,11 @@ footer li a:hover {
     .visit-details {
         grid-template-columns: 1fr;
         text-align: center;
+    }
+
+    .promo-price {
+        font-size: 1.15rem;
+        padding: 0.2rem 0.6rem;
     }
 
     .map {
@@ -512,7 +523,7 @@ footer li a:hover {
         text-align: center;
         gap: 2rem;
     }
-    
+
     .footer-info p {
         margin: 0 auto;
     }
