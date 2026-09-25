@@ -465,6 +465,22 @@ footer li a:hover {
         gap: 1rem;
     }
 
+   #hero {
+    min-height: auto;
+    padding-top: 2rem; 
+    padding-bottom: 0; 
+    }
+
+    .hero-content {
+    padding: 0 1.5rem;
+    margin-bottom: 1.5rem; 
+    }
+
+    .hero-image {
+    width: 100%;
+    height: auto;
+    }
+
     .hero-content h1 {
         font-size: 2.2rem;
     }
